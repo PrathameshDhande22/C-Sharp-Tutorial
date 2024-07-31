@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A5A591C1-C8CD-4FB3-82BC-B16027DA97DB}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Tutorial</RootNamespace>
+    <AssemblyName>Tutorial</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>5</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>_70_Query_Keywords</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="01_Introduction.cs" />
+    <Compile Include="02_Reading_Writing_Console.cs" />
+    <Compile Include="03_Built_in_Types.cs" />
+    <Compile Include="04_Operators.cs" />
+    <Compile Include="05_Nullable_Types.cs" />
+    <Compile Include="06_Datatype_conversion.cs" />
+    <Compile Include="07_Arrays.cs" />
+    <Compile Include="08_Comments.cs" />
+    <Compile Include="09_If_Statement.cs" />
+    <Compile Include="10_Switch_Statements.cs" />
+    <Compile Include="11_Goto_Keyword.cs" />
+    <Compile Include="12_While_Loop.cs" />
+    <Compile Include="13_Do_While.cs" />
+    <Compile Include="14_For_Loop.cs" />
+    <Compile Include="15_Exercise.cs" />
+    <Compile Include="16_Method.cs" />
+    <Compile Include="17_Pass_by_value&amp;Reference.cs" />
+    <Compile Include="18_Out_Parameters.cs" />
+    <Compile Include="19_Parameter_arrays.cs" />
+    <Compile Include="20_NameSpaces.cs" />
+    <Compile Include="21_Class.cs" />
+    <Compile Include="22_Static&amp;Instance_members.cs" />
+    <Compile Include="23_Inheritance.cs" />
+    <Compile Include="24_Method_Hiding.cs" />
+    <Compile Include="25_Polymorphism.cs" />
+    <Compile Include="26_Method_Overloading.cs" />
+    <Compile Include="27_Properties.cs" />
+    <Compile Include="28_Structs.cs" />
+    <Compile Include="29_Sealed_Keyword.cs" />
+    <Compile Include="30_Interfaces.cs" />
+    <Compile Include="31_Explicit_Interface.cs" />
+    <Compile Include="32_Abstract_Class.cs" />
+    <Compile Include="33_Multiple_inheritance.cs" />
+    <Compile Include="34_Delegates.cs" />
+    <Compile Include="35_Multicast_delegates.cs" />
+    <Compile Include="36_Exception.cs" />
+    <Compile Include="37_Inner_Exception.cs" />
+    <Compile Include="38_Custom_Exception.cs" />
+    <Compile Include="39_Enums.cs" />
+    <Compile Include="40_Access_Modifiers.cs" />
+    <Compile Include="41_Obselete_Attributes.cs" />
+    <Compile Include="42_Custom_Attributes.cs" />
+    <Compile Include="43_Reflection.cs" />
+    <Compile Include="47_ConvertString&amp;ToString.cs" />
+    <Compile Include="44_Generics.cs" />
+    <Compile Include="45_Override_ToString.cs" />
+    <Compile Include="46_Override_Equals.cs" />
+    <Compile Include="48_StringBuilder.cs" />
+    <Compile Include="49_Partial_classes.cs" />
+    <Compile Include="50_Indexers.cs" />
+    <Compile Include="51_Optional_Parameters.cs" />
+    <Compile Include="52_Dictionary.cs" />
+    <Compile Include="53_List_class.cs" />
+    <Compile Include="54_Generic_Class_List.cs" />
+    <Compile Include="55_Sorting_Simple.cs" />
+    <Compile Include="56_Sorting_Complex.cs" />
+    <Compile Include="57_Sorting_Complex_Delegate.cs" />
+    <Compile Include="58_Useful_Methods_List.cs" />
+    <Compile Include="59_List_Extension_Methods.cs" />
+    <Compile Include="60_Threading.cs" />
+    <Compile Include="61_MultiThreading.cs" />
+    <Compile Include="62_Anonymous_Method.cs" />
+    <Compile Include="63_Lambda_Expression.cs" />
+    <Compile Include="64_Func_Delegate.cs" />
+    <Compile Include="65_Async_Await.cs" />
+    <Compile Include="66_Tuples_ValueTuples_Nullable_Types.cs" />
+    <Compile Include="67_Value_Tuple.cs" />
+    <Compile Include="68_FileReader.cs" />
+    <Compile Include="69_FileWriter.cs" />
+    <Compile Include="70_Query_Keywords.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectB\ProjectB.csproj">
+      <Project>{09ec5465-9cad-4042-9dcb-ec7a6dee371d}</Project>
+      <Name>ProjectB</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bigfile.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
